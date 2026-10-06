@@ -410,16 +410,9 @@ export default function Home() {
             <div
               className="world-landscape"
               role="img"
-              aria-label="Пиксельный пейзаж Minecraft с лесом, рекой и горами"
+              aria-label="Карта мира Sakeva"
             >
-              <div className="land-sun" />
-              <div className="land-mountains" />
-              <div className="land-hill hill-back" />
-              <div className="land-hill hill-front" />
-              <div className="land-river" />
-              <div className="land-tree tree-one" />
-              <div className="land-tree tree-two" />
-              <div className="land-tree tree-three" />
+              <img className="world-map" src="/images/map.jpg" alt="Карта мира Sakeva" />
 
               <div className="map-coordinates">
                 <MapPinned size={15} />
